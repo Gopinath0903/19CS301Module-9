@@ -215,5 +215,49 @@ if isThoeplitz(A):
 
 ### Result: 
 Thus the Python Program to check whether the given matrix is Toeplitz Matrix was executed successfully.
- 
+
+
+
+
+EX: 9.5 list comprehension
+
+### Aim: 
+Write a Python program to find the square of all elements in a list using list comprehension
+
+
+### Algorithm
+
+1. Read a number `n` (how many numbers to input).
+2. Create an empty list `L`.
+3. Repeat `n` times:
+
+   * Read a number.
+   * Add the number to list `L`.
+4. Print list `L`.
+5. Create a new list `P` by squaring each number in `L`.
+6. Print list `P`.
+
+### Program:
+```
+Reg no-212223070007
+Name-Gopinath G
+
+n=int(input())
+L=[]
+for i in range(n):
+    x=int(input())
+    L.append(x)
+print(L)
+P=[i**2 for i in L]
+print(P)
+
+```
+
+### Output:
+![image](https://github.com/user-attachments/assets/e437e0e3-3ec3-4df1-b440-d63bb8cd9752)
+
+
+### Result: 
+Thus the  Python program to find the square of all elements in a list using list comprehension was executed successfully.
+
 
